@@ -71,7 +71,7 @@ fun PantallaInicio(navController: NavHostController){
                 val nombre = nombre.ifBlank {"Cardiel"}
                 navController.navigate("detalle/{nombre}")
         }) {
-            Text("Ir a Detalle con nombre")
+            Text("Ir a Detalle con nombre ")
         }
     }
 }
